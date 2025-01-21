@@ -55,12 +55,19 @@ table.bordered,
 .bordered th,
 .bordered td {
     border: 0px;
+    border-bottom: 1px solid #fff;
     background-color: #626262;
     color: white;
 }
 
 .bordered th,
 .bordered td {
+    padding: 3px;
+    text-align: left;
+}
+
+th,
+td {
     padding: 3px;
     text-align: left;
 }
