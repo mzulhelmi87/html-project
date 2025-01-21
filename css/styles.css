@@ -55,7 +55,6 @@ table.bordered,
 .bordered th,
 .bordered td {
     border: 0px;
-    border-bottom: 1px solid #fff;
     background-color: #626262;
     color: white;
 }
@@ -75,7 +74,7 @@ td {
 .quote .title{
     background-color: #626262;
     color: white;
-    padding: 2px 100px 2px 2px;
+    padding: 2px 50px 2px 2px;
     display: inline-block;
     margin: 10px 0 0 0;
 }
