@@ -1,0 +1,110 @@
+body {
+    font-family: Arial, sans-serif;
+    font-size: 11pt;
+}
+
+.container {
+    display: flex;
+    width: 100%;
+    height: 100vh;
+}
+
+.left-side {
+    width: 40%;
+    background: linear-gradient(to bottom, #229e9e, #4dc5c6);
+    color: white;
+    padding: 0px;
+    text-align: center;
+}
+.left-side h2 {
+    margin-bottom: 20px;
+    color: white;
+    font-size: 300pt;
+    font-size: 26pt;
+}
+.left-side p {
+    margin-bottom: 20px;
+    color: black;
+    line-height: 20pt;
+    font-size: 10pt;
+}
+
+.left-side img {
+    width: 100%;
+    height: auto;
+}
+
+.right-side {
+    width: 70%;
+    padding: 20px;
+}
+
+table.bordered {
+    width: 100%;
+    border-collapse: collapse;
+}
+.text-blue{
+    color: #4b60a1;
+}
+
+.m-0 {
+    margin: 0;
+}
+
+table.bordered,
+.bordered th,
+.bordered td {
+    border: 0px;
+    background-color: #626262;
+    color: white;
+}
+
+.bordered th,
+.bordered td {
+    padding: 3px;
+    text-align: left;
+}
+
+.quote .title{
+    background-color: #626262;
+    color: white;
+    padding: 5px 10px;
+    display: inline-block;
+    margin: 10px 0 0 0;
+}
+.quote p{
+    line-height: 20pt;
+    margin: 0;
+}
+
+.signatures {
+    display: flex;
+    justify-content: space-between;
+    margin-top: 20px;
+}
+
+.signature {
+    text-align: center;
+    width: 50%;
+}
+
+/* Print styles */
+@media print {
+    @page {
+        size: A4;
+        margin: 0;
+    }
+
+    body {
+        margin: 0;
+        padding: 0;
+    }
+
+    .container {
+        width: 100%;
+        height: 297mm;
+            /* A4 height */
+        margin: 0;
+        padding: 0;
+    }
+}
