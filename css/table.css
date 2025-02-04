@@ -1,6 +1,7 @@
 body {
     font-family: 'Malgun Gothic', sans-serif;
     font-size: 11pt;
+    font-weight: lighter;
 }
 
 .container {
@@ -10,13 +11,13 @@ body {
 
 .logo {
     display: flex;
-    font: 9pt sans-serif;
+    font: 6pt sans-serif;
 }
 
 .logo-img {
     float: left;
     margin-right: 15px;
-    width: 140px;
+    width: 80px;
     /* Adjust margin as needed */
 }
 
@@ -37,7 +38,7 @@ table.bordered {
 }
 
 .strong {
-    font-weight: bold;
+    font-weight: normal;
 }
 
 .bordered th {
