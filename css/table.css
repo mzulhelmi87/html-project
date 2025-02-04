@@ -19,6 +19,7 @@ body {
     margin-right: 15px;
     width: 80px;
     /* Adjust margin as needed */
+    font-weight: normal;
 }
 
 table.bordered {
